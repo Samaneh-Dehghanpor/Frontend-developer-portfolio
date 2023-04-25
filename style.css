@@ -87,3 +87,34 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+  }
+  a {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+  }
+  img {
+    max-width: 400px;
+    margin-bottom: 30px;
+  }
+  .project {
+    display: none;
+  }
+}
