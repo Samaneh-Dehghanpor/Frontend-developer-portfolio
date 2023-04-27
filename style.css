@@ -6,20 +6,30 @@
 
 h1 {
   font-size: 96px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+  opacity: 0.7;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .about-paragraphs {
@@ -39,6 +49,8 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .navigation-links a {
@@ -53,17 +65,23 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .email-link {
@@ -72,6 +90,8 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .email-link:hover {
@@ -86,7 +106,16 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
+
+.hero {
+  background-color: #f9f7fe;
+  padding: 40px;
+  margin: 40px 0;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 48px;
